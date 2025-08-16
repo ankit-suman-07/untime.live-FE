@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="/homepage.css">
+    <link rel="stylesheet" href="/usecase.css">
 
     <title>Document</title>
 </head>
@@ -24,7 +25,7 @@
             
             <div class="nav-icon" >
                 <a href="https://www.untime.live/admin" class="nav-link">
-                    <img src="../static/assets/timer-menu-icon.png" alt="logo" />
+                    <img src="https://untimelive.netlify.app/static/assets/timer-menu-icon.png" alt="logo" />
                 </a>
             </div>
             <div id="burgerMenu" class="burger-menu" onclick="toggleBurgerLines()">
@@ -34,6 +35,162 @@
             </div>
         </nav>
     </header>
+
+    <main class="use-case-main" >
+        <div class="use-case-example" >
+            <div class="use-case-example-img" >
+                <img src="https://untimelive.netlify.app/static/assets/homepage/use_public.png" alt="Public Speaking at Live Events" />
+            </div>
+            <div class="use-case-example-desc" >
+                <div class="use-case-example-title" >Public Speaking at Live Events (e.g., TEDx, Conferences, Keynote Sessions)</div>
+                <div class="use-case-example-sub-title" >Actors:</div>
+                <ul class="use-case-example-list">
+                        <li>Event timekeeper <span class="page-bold" >(Admin)</span></li>
+                        <li>Stage assistant or producer  <span class="page-bold">(Remote)</span></li>
+                        <li>Speaker  <span class="page-bold">(View)</span></li>
+                </ul>
+                <div class="use-case-example-sub-title" >Scenario:</div>
+                <p class="use-case-example-list">
+                        In large-scale events like TEDx or professional conferences, speakers often have a strict time limit to follow. <br> 
+                        Before the session begins, the event timekeeper uses the <span class="page-bold" >Admin Page</span> to create a countdown timer customized to the allotted speaking time.  <br>
+                        The <span class="page-bold" >View Page</span> is projected on a large screen near the speaker in fullscreen mode so they can clearly monitor the remaining time without being distracted by other visuals.  <br>
+                        A <span class="page-bold" >Remote Page</span> is operated by a stage assistant or producer to adjust the timer on the fly — for example, pausing for audience applause, extending time for unforeseen delays, or resetting it for the next speaker — all without disrupting the main timer display.<br>
+                </p>
+                <div class="use-case-example-sub-title" >Goals:</div>
+                <ul class="use-case-example-list">
+                        <li>Keep speakers within their allocated time slot to maintain event schedules.</li>
+                        <li>Allow real-time adjustments without walking over to the admin station.</li>
+                        <li>Provide a non-intrusive way for speakers to manage pacing during their talk.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="use-case-example">
+            <div class="use-case-example-img">
+                <img src="https://untimelive.netlify.app/static/assets/homepage/use_meet.png" alt="Multiple Speaker Management" />
+            </div>
+            <div class="use-case-example-desc">
+                <div class="use-case-example-title">Multiple Speaker Management (Debates, Panel Discussions, Meetings)</div>
+                <div class="use-case-example-sub-title">Actors:</div>
+                <ul class="use-case-example-list">
+                    <li>Event coordinator <span class="page-bold">(Admin)</span></li>
+                    <li>Moderator or judge <span class="page-bold">(Remote)</span></li>
+                    <li>Multiple speakers <span class="page-bold">(View)</span></li>
+                </ul>
+                <div class="use-case-example-sub-title">Scenario:</div>
+                <p class="use-case-example-list">
+                    In events like debates, panel discussions, or team meetings where multiple people speak in turns, 
+                    the event coordinator sets up timers for each participant in advance. <br>
+                    Once Speaker A finishes, the moderator triggers the next timer for Speaker B using the 
+                    <span class="page-bold">Remote Page</span> without needing to interrupt or walk to the admin desk. <br>
+                    The <span class="page-bold">View Page</span> is displayed on separate monitors for each speaker 
+                    or centrally on a shared screen so everyone can track their time. <br>
+                    This ensures smooth transitions between speakers and prevents time overruns. <br>
+                </p>
+                <div class="use-case-example-sub-title">Goals:</div>
+                <ul class="use-case-example-list">
+                    <li>Efficiently manage back-to-back speaking slots.</li>
+                    <li>Maintain fairness by ensuring each speaker gets equal time.</li>
+                    <li>Minimize downtime between speakers and keep the event flowing smoothly.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="use-case-example">
+            <div class="use-case-example-img">
+                <img src="https://untimelive.netlify.app/static/assets/homepage/use_gym.png" alt="Gym and Fitness Sessions" />
+            </div>
+            <div class="use-case-example-desc">
+                <div class="use-case-example-title">Gym and Fitness Sessions (HIIT, Circuit Training, Personal Coaching)</div>
+                <div class="use-case-example-sub-title">Actors:</div>
+                <ul class="use-case-example-list">
+                    <li>Trainer <span class="page-bold">(Admin)</span></li>
+                    <li>Trainer's assistant or class leader <span class="page-bold">(Remote)</span></li>
+                    <li>Gym participants <span class="page-bold">(View)</span></li>
+                </ul>
+                <div class="use-case-example-sub-title">Scenario:</div>
+                <p class="use-case-example-list">
+                    In fitness settings like HIIT classes, circuit training, or personal coaching, trainers need precise 
+                    control over workout and rest intervals. <br>
+                    The <span class="page-bold">Admin Page</span> is used to set workout timers (e.g., 40 seconds of activity, 
+                    20 seconds rest) and display them on the <span class="page-bold">View Page</span> via a large screen or 
+                    wall-mounted display for all participants. <br>
+                    If the trainer is busy demonstrating an exercise, a class assistant can use the 
+                    <span class="page-bold">Remote Page</span> to pause, resume, or modify the timer in real time without 
+                    stopping the session. <br>
+                    This enables hands-free time management while keeping the workout structured. <br>
+                </p>
+                <div class="use-case-example-sub-title">Goals:</div>
+                <ul class="use-case-example-list">
+                    <li>Keep participants synchronized and on track without verbal time reminders.</li>
+                    <li>Reduce manual effort by allowing assistants to manage timers.</li>
+                    <li>Improve session efficiency by automating rest and workout intervals.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="use-case-example">
+            <div class="use-case-example-img">
+                <img src="https://untimelive.netlify.app/static/assets/homepage/use_training.png" alt="Online Meetings and Webinars" />
+            </div>
+            <div class="use-case-example-desc">
+                <div class="use-case-example-title">Online Meetings, Webinars, and Virtual Presentations</div>
+                <div class="use-case-example-sub-title">Actors:</div>
+                <ul class="use-case-example-list">
+                    <li>Host <span class="page-bold">(Admin)</span></li>
+                    <li>Co-host <span class="page-bold">(Remote)</span></li>
+                    <li>Presenters/Participants <span class="page-bold">(View)</span></li>
+                </ul>
+                <div class="use-case-example-sub-title">Scenario:</div>
+                <p class="use-case-example-list">
+                    In online meetings and virtual presentations, time often slips away without a clear visual cue. <br>
+                    The meeting host uses the <span class="page-bold">Admin Page</span> to create a countdown for agenda items 
+                    or presentation slots. <br>
+                    The <span class="page-bold">View Page</span> is shared on-screen with all participants so everyone stays 
+                    aware of the remaining time. <br>
+                    Meanwhile, the co-host operates the <span class="page-bold">Remote Page</span> to adjust timers as needed 
+                    without interrupting the presenter’s flow. <br>
+                    This helps keep meetings on schedule and prevents discussions from overrunning. <br>
+                </p>
+                <div class="use-case-example-sub-title">Goals:</div>
+                <ul class="use-case-example-list">
+                    <li>Keep virtual sessions within their scheduled time blocks.</li>
+                    <li>Provide a visual time reference for all participants.</li>
+                    <li>Allow smooth adjustments without breaking the presentation rhythm.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="use-case-example">
+            <div class="use-case-example-img">
+                <img src="https://untimelive.netlify.app/static/assets/homepage/use_class.png" alt="Classroom and Exam Settings" />
+            </div>
+            <div class="use-case-example-desc">
+                <div class="use-case-example-title">Classroom and Exam Settings</div>
+                <div class="use-case-example-sub-title">Actors:</div>
+                <ul class="use-case-example-list">
+                    <li>Teacher/Examiner <span class="page-bold">(Admin)</span></li>
+                    <li>Invigilator <span class="page-bold">(Remote)</span></li>
+                    <li>Students <span class="page-bold">(View)</span></li>
+                </ul>
+                <div class="use-case-example-sub-title">Scenario:</div>
+                <p class="use-case-example-list">
+                    In educational environments, managing time during activities, tests, or group discussions is crucial. <br>
+                    The teacher uses the <span class="page-bold">Admin Page</span> to set the countdown for the activity or exam. <br>
+                    Students see the <span class="page-bold">View Page</span> on a projector or large display, ensuring they are 
+                    aware of the remaining time. <br>
+                    An invigilator with the <span class="page-bold">Remote Page</span> can pause or reset the timer if there’s an 
+                    interruption, such as an announcement or technical issue, without disturbing the teacher. <br>
+                </p>
+                <div class="use-case-example-sub-title">Goals:</div>
+                <ul class="use-case-example-list">
+                    <li>Enforce consistent time limits for academic activities.</li>
+                    <li>Ensure students have a clear visual reference for remaining time.</li>
+                    <li>Provide invigilators the ability to control timing remotely without classroom disruption.</li>
+                </ul>
+            </div>
+    </div>
+
+    </main>
 
     
     <footer>
